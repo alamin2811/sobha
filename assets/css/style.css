@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1B1A1A;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    color: #DADADA;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/*-- reset style --*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+.btn{
+    border: none;
+    outline: none;
+}
+.custom-list{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1390px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Abhaya Libre ExtraBold";
+    font-weight: 800;
+    line-height: normal;
+}
+
+h1 {
+    font-size: 50.61px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 33.31px;
+}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+/*-- header style --*/
+
+.header-section {
+    height: 85px;
+}
+
+/* hero style  */
+.hero-section {
+    padding-top: 67px;
+    padding-bottom: 407px;
+    background: #1B1F2B;
+    position: relative;
+}
+.hero-shape{
+    position: absolute;
+    left: 0;
+    top: 16px;
+    z-index: 0;
+}
+
+.hero-left {
+    padding-left: 90px;
+    padding-top: 18px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.hero-text {
+    width: 100%;
+    padding-top: 35px;
+}
+.hero-text h1 {
+    color: #FFFFFF;
+    margin-bottom: 88px;
+}
+.hero-text button {
+    border-radius: 12.167px;
+    background: #E5CC41;
+    width: 358px;
+    padding: 15px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.hero-left .hero-left-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 77px;
+}
+.hero-left .hero-left-list img{
+    margin-bottom: 16px;
+}
+.hero-left .hero-left-list h2{
+    margin-bottom: 6px;
+}
+.hero-left .hero-left-list p{
+    font-size: 14.989px;
+}
+
+.hero-right .hero-img{
+    max-width: 670px;
+    width: 100%;
+    margin-left: auto;
+}
+.hero-right{
+    position: relative;
+    z-index: 1;
+}
+
+/*-- viewing-request-section --*/
+.viewing-request-card{
+    border-radius: 25px;
+    background: #000;
+    padding: 90px 90px 70px 90px;
+    margin-top: -217px;
+    z-index: 11;
+    position: relative;
+}
+.vr-card-left p{
+    margin-top: 33px;
+}
+.vr-card-left ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.vr-card-left ul li{
+    max-width: 140px;
+}
+.vr-card-left ul li h2{
+    color: #CAA788;
+}
+.vr-card-left ul li p{
+    font-size: 14px;
+    line-height: 140%;
+}
+.vr-form-card{
+    border-radius: 50px;
+    border: 2px solid #CAA788;
+    background: #1B1F2B;
+    padding: 30px;
+    position: absolute;
+    top: -71px;
+    right: 0px;
+    width: 47%;
+}
+
+.vr-form-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+
+}
+.vr-form-header-left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.vr-form-header-left span{
+    font-size: 14px;
+    line-height: normal;
+}
+.vr-form-header-left ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.vr-form-header-left ul li{
+    margin-left: -24px;
+    border-radius: 55px;
+    height: 55px;
+    width: 55px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vr-form-header-left ul li img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.vr-form-header-left ul li:nth-child(1){
+    margin-left: 0;
+}
+.vr-form-header button{
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background: #E5CC41;
+    width: 167px;
+    padding: 12px;
+}
+.vr-form-card strong{
+    color: #04DA8D;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+}
+.vr-form-card p{
+    margin: 28px 0px 24px 0px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+}
+.vr-form-card form input{
+    margin-bottom: 36px;
+    color: #1B1F2B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 9px;
+    border-radius: 8px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+    outline: none;
+    width: 100%;
+    height: 48px;
+}
+.vr-form-submit-btn{
+    border-radius: 8px;
+    background: #E5CC41;
+    height: 50px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+    padding: 14px;
+}
