@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SOBHA - HOME</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header class="header-section"></header>
-    
+
     <section class="hero-section">
         <div class="hero-shape"><img src="./assets/images/shape/hero-bg-shape.png" alt="shape"></div>
         <div class="row">
@@ -19,7 +20,8 @@
                 <div class="hero-left">
                     <a href="./index.html" class="logo"><img src="./assets/images/logo/logo.svg" alt="logo"></a>
                     <div class="hero-text">
-                        <h1 class="uppercase">1 & 2-Bedroom Luxury Waterfront Apartments <br> by Sobha Realty <br> in Dubai Marina</h1>
+                        <h1 class="uppercase">1 & 2-Bedroom Luxury Waterfront Apartments <br> by Sobha Realty <br> in
+                            Dubai Marina</h1>
                         <button class="btn">Book A Viewing</button>
                     </div>
                     <ul class="hero-left-list custom-list">
@@ -58,7 +60,11 @@
                     <div class="col-md-6">
                         <div class="vr-card-left">
                             <a href="./index.html" class="logo"><img src="./assets/images/logo/logo.svg" alt="logo"></a>
-                            <p>Sobha Seahaven is a luxury residential development in Dubai Harbour, consisting of Towers A, В, C. Among the units on offer are 1–3 bedroom apartments and 3-4 bedroom apartments from the Sky Edition collection, in which units have an ultra-luxury design and 270-degree views of Dubai Harbour, Dubai Marina, the Arabian Gulf and the famous skyline</p>
+                            <p>Sobha Seahaven is a luxury residential development in Dubai Harbour, consisting of Towers
+                                A, В, C. Among the units on offer are 1–3 bedroom apartments and 3-4 bedroom apartments
+                                from the Sky Edition collection, in which units have an ultra-luxury design and
+                                270-degree views of Dubai Harbour, Dubai Marina, the Arabian Gulf and the famous skyline
+                            </p>
                             <ul class="custom-list">
                                 <li>
                                     <h2 class="uppercase">130+M</h2>
@@ -73,7 +79,7 @@
                                     <p>Years of Delivering Perfection</p>
                                 </li>
                             </ul>
-                        </div>    
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <div class="vr-form-card">
@@ -108,13 +114,108 @@
         </div>
     </section>
 
+    <section class="gallery-and-location">
+        <div class="gallery-and-location-shape">
+            <img src="./assets/images/shape/gallery-and-location-shape.png" alt="img">
+        </div>
+        <div class="gallery-section">
+            <div class="section-title">
+                <h2 class="uppercase">gallery</h2>
+                <button class="btn">Book A Viewing</button>
+            </div>
+            <div class="gallery-container">
+                <div class="slider slider-for">
+                    <div class="slide">
+                        <img src="./assets/images/bg/slide1.png" alt="Image 1">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/images/bg/slide2.png" alt="Image 2">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/images/bg/slide3.png" alt="Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/images/bg/slide4.png" alt="Image 4">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/images/bg/slide5.png" alt="Image 4">
+                    </div>
+                </div>
+
+                <div class="thumbnails slider-nav">
+                    <div class="thumbnail">
+                        <img src="./assets/images/bg/slide1.png" alt="Thumbnail 1">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="./assets/images/bg/slide2.png" alt="Thumbnail 2">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="./assets/images/bg/slide3.png" alt="Thumbnail 3">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="./assets/images/bg/slide4.png" alt="Thumbnail 4">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="./assets/images/bg/slide5.png" alt="Thumbnail 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="minutes-section">
+            <div class="minutes-card">
+                <ul class="custom-list">
+                    <li>
+                        <img src="./assets/images/icons/arab.png" alt="icon">
+                        <h2 class="uppercase">20 Minutes</h2>
+                        <p>to Downtown Dubai</p>
+                    </li>
+                    <li>
+                        <img src="./assets/images/icons/boat.png" alt="icon">
+                        <h2 class="uppercase">10 Minutes</h2>
+                        <p>to Marina Mall</p>
+                    </li>
+                    <li>
+                        <img src="./assets/images/icons/flights.png" alt="icon">
+                        <h2 class="uppercase">30 Minutes</h2>
+                        <p>to DXB Airport</p>
+                    </li>
+                    <li>
+                        <img src="./assets/images/icons/flights.png" alt="icon">
+                        <h2 class="uppercase">35 Minutes</h2>
+                        <p>to DWC Airport</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
 
 
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script>
+        $('.slider-for').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: true,
+          fade: false,
+          asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          asNavFor: '.slider-for',
+          dots: false,
+          centerMode: false,
+          focusOnSelect: true,
+        });
+      </script>
 </body>
 
 </html>
