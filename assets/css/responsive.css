@@ -28,7 +28,7 @@
         font-size: 45px;
     }
     .location-section{
-        padding: 90px 0px;
+        padding-top: 90px;
     }
     .location-bg{
         margin-top: 20px;
@@ -49,6 +49,9 @@
     }
     .minutes-card ul li::after{
         right: -20%;
+    }
+    .location-section{
+        padding-bottom: 90px;
     }
     .location-img2{
         margin-bottom: 0px;
