@@ -144,7 +144,8 @@ h6 {}
 .hero-text button {
     border-radius: 12.167px;
     background: #E5CC41;
-    width: 358px;
+    max-width: 358px;
+    width: 100%;
     padding: 15px;
     color: #000;
     font-family: Inter;
@@ -516,4 +517,69 @@ h6 {}
 }
 .location-img2{
     margin-bottom: -175px;
+}
+
+.payment-section{
+    padding-bottom: 100px;
+}
+.payment-card{
+    padding: 90px 20px;
+    border-radius: 25px;
+    background: #0B0F1B;
+    position: relative;
+}
+.payment-card-shape{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.payment-card-content{
+    max-width: 1125px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+.payment-card-content h2{
+    font-size: 68px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 51px;
+}
+.payment-value{
+    text-align: center;
+}
+.payment-value h3{
+    color: #CAA788;
+    font-size: 62.46px;
+    margin-bottom: 2px;
+}
+.payment-value p{
+    font-size: 21.861px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.619px; 
+}
+.payment-card-content button{
+    border-radius: 12.167px;
+    background: #E5CC41;
+    width: 100%;
+    padding: 15px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: -205px;
+}
+.payment-btn{
+    max-width: 358px;
+    width: 100%;
+    margin: auto;
 }
