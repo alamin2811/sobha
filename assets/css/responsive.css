@@ -1,0 +1,320 @@
+@media only screen and (max-width: 1440px) {
+    .hero-left{
+        padding-left: 40px;
+    }
+}
+@media only screen and (max-width: 1360px) {
+    .hero-text h1{
+        font-size: 44px;
+        margin-bottom: 50px;
+    }
+    .hero-left .hero-left-list{
+        margin-top: 60px;
+        padding-right: 20px;
+    }
+    .viewing-request-card{
+        padding: 70px 50px;
+    }
+    .minutes-card ul li::after{
+        right: -10%;
+    }
+    .location-text p{
+        font-size: 16px;
+    }
+    .payment-card-content h2{
+        font-size: 50px;
+    }
+    .payment-value h3{
+        font-size: 45px;
+    }
+    .location-section{
+        padding: 90px 0px;
+    }
+    .location-bg{
+        margin-top: 20px;
+    }
+    .gallery-section{
+        padding: 150px 0px 100px 0px;
+    }
+    .hero-section{
+        padding-bottom: 320px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .minutes-card{
+        padding: 50px 30px;
+    }
+    .minutes-card ul li h2{
+        font-size: 30px;
+    }
+    .minutes-card ul li::after{
+        right: -20%;
+    }
+    .location-img2{
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .header-section{
+        display: none;
+    }
+    .mobile-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        z-index: 999;
+        padding: 40px 28px;
+    }
+
+    .mobile-header a{
+        color: #E5CC41;
+        font-family: Inter;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.22px;
+        text-decoration: none;
+    }
+    .mobile-header button{
+        padding: 0px;
+    }
+    .hero-section{
+        padding-top: 158px;
+    }
+    .row{
+        margin: 0px;
+    }
+
+    .hero-shape {
+        right: 0px;
+        left: auto;
+    }
+    .container{
+        padding: 0px;
+    }
+    .hero-right{
+        display: none;
+    }
+    .hero-section{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.74) 0%, rgba(0, 0, 0, 0.74) 100%), url(../images/bg/hero-img.png) lightgray -121.98px 0px / 145.748% 99.97% no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+        text-align: center;
+    }
+    .hero-left{
+        padding-left: 0px;
+    }
+    .hero-left .hero-left-list{
+        margin: auto;
+        margin-top: 50px;
+    }
+    .vr-form-card{
+        position: relative;
+        top: 0px;
+        width: 100%;
+        margin-top: 50px;
+        border-radius: 27px;
+    }
+    .vr-card-left{
+        text-align: center;
+    }
+    .vr-card-left ul li{
+        width: 33.33%;
+        margin: auto;
+        text-align: center;
+    }
+    .viewing-request-card{
+        padding: 70px 0 0 0;
+    }
+    .gallery-section{
+        padding: 100px 0px 80px 0px;
+    }
+    .minutes-card{
+        padding: 50px 30px 10px 30px;
+    }
+    .minutes-card ul{
+        flex-wrap: wrap;
+    }
+    .minutes-card ul li{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+    .minutes-card ul li::after{
+        display: none;
+    }
+    .vr-card-left{
+        padding: 0px 30px;
+    }
+    .location-text{
+        padding: 0px;
+        text-align: center;
+    }
+    .location-img {
+        margin-top: 50px;
+    }
+    .location-bg{
+        padding-bottom: 116px;
+    }
+    .payment-card-content h2{
+        font-size: 40px;
+    }
+    .section-title{
+        text-align: center;
+        justify-content: center;
+    }
+    .section-title h2{
+        font-size: 36px;
+    }
+    .gallery-section {
+        padding-bottom: 180px;
+        margin-bottom: 80px;
+    }
+    .gallery-section .section-title button{
+        position: absolute;
+        bottom: 0px;
+    }
+    .location-section .section-title button{
+        position: absolute;
+        bottom: 65px;
+    }
+    .gallery-and-location-shape{
+        display: none;
+    }
+    
+    .gallery-container .slick-next{
+        top: 107%;
+        right: 43%;
+        height: 38px;
+        width: 38px;
+    }
+    .gallery-container .slick-prev{
+        top: 107%;
+        left: 43%;
+        height: 38px;
+        width: 38px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .payment-card-content h2{
+        font-size: 50px;   
+    }
+    .payment-value h3{
+        font-size: 62px;
+    }
+    .payment-value {
+        margin-bottom: 107px;
+    }
+    .payment-card-shape{
+        display: none;
+    }
+    .payment-card-shape2{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .minutes-card ul{
+        padding-top: 20px;
+    }
+    .minutes-card ul li{
+        width: 100%;
+        margin-bottom: 78px;
+    }
+    .minutes-card{
+        border-radius: 0;
+    }
+    .location-text p{
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+    .payment-card-content h2{
+        font-size: 36px;
+    }
+    .payment-card{
+        padding-bottom: 60px;
+        padding-left: 5px;
+        padding-right: 5px;
+        max-width: 90%;
+        margin: auto;
+    }
+    .payment-btn{
+        max-width: 100%;
+    }
+    .payment-card-content button{
+        margin-bottom: -115px;
+    }
+    .section-title button{
+        max-width: 92%;
+    }
+    .vr-card-left ul{
+        flex-wrap: wrap;
+    }
+    .vr-card-left ul li{
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .vr-card-left ul li h2{
+        font-size: 36px;
+    }
+    .vr-card-left ul li p{
+        max-width: 142px;
+        margin: auto;
+        margin-bottom: 23px;
+    }
+    .hero-text h1{
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .hero-text button{
+        color: #000;
+        font-size: 15px;
+        height: 64px;
+    }
+    .hero-left .hero-left-list{
+        padding-right: 0px;
+    }
+    .hero-left .hero-left-list li{
+        width: 33.33%;
+    }
+    .hero-left .hero-left-list li img{
+        max-width: 44px;
+    }
+    .hero-left .hero-left-list li h3{
+        font-size: 18px;
+    }
+    .hero-left .hero-left-list li p{
+        font-size: 12px;
+    }
+    .gallery-section{
+        padding-top: 60px;
+    }
+    .gallery-container .slick-next{
+        top: 115%;
+        right: 37.5%;
+    }
+    .gallery-container .slick-prev{
+        top: 115%;
+        left: 37.5%;
+    }
+    .vr-form-header-left{
+        flex-wrap: wrap;
+    }
+    .vr-form-header button{
+        width: 170px;
+    }
+    .vr-form-header-left ul li{
+        height: 38px;
+        width: 38px;
+    }
+}
+

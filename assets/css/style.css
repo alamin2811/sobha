@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Abhaya Libre ExtraBold";
+    font-family: "Abhaya Libre";
     font-weight: 800;
     line-height: normal;
 }
@@ -79,6 +79,9 @@ h6 {}
     height: 85px;
 }
 
+.mobile-header{
+    display: none;
+}
 
 .section-title {
     display: flex;
@@ -180,6 +183,7 @@ h6 {}
     max-width: 670px;
     width: 100%;
     margin-left: auto;
+    overflow: hidden;
 }
 
 .hero-right {
@@ -234,10 +238,9 @@ h6 {}
 
 .vr-form-header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 10px;
     margin-bottom: 28px;
 
 }
@@ -359,11 +362,11 @@ h6 {}
     padding-bottom: 177px;
     position: relative;
     z-index: 1;
+    overflow-x: hidden;
 }
 
 .gallery-container {
     position: relative;
-    overflow-x: hidden;
     margin-top: 42px;
 }
 .gallery-container .slide{
@@ -535,6 +538,15 @@ h6 {}
     top: 0px;
     left: 0px;
     z-index: 0;
+}
+.payment-card-shape2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    display: none;
 }
 .payment-card-content{
     max-width: 1125px;
