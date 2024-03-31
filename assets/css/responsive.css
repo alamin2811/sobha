@@ -202,6 +202,9 @@
         height: 38px;
         width: 38px;
     }
+    .custom-container{
+        overflow: visible;
+    }
 }
 @media only screen and (max-width: 768px){
     .payment-card-content h2{
