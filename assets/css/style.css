@@ -43,11 +43,7 @@ body {
     padding: 20px;
     margin: 0 auto;
 }
-.custom-container{
-    max-width: 1440px;
-    padding: 0px !important;
-    overflow: hidden;
-}
+
 h1,
 h2,
 h3,
@@ -381,6 +377,11 @@ h6 {}
     object-fit: cover;
 }
 
+.gallery-content{
+    max-width: 100%;
+    padding: 0px !important;
+    overflow: hidden;
+}
 .gallery-container .slick-track {
     display: flex;
 }
